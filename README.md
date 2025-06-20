@@ -26,20 +26,3 @@ Get: "/api/auth" - coloquei essa rota para teste de autenticação
     "username": "peter",
     "password": "parker"
 }
-
-### 5. Estrutura do Projeto
-
-├── Controllers/
-│   └── AuthController.cs
-├── Data/
-│   └── UserDbContext.cs
-├── Entities/
-│   └── User.cs
-├── Models/
-│   └── UserDto.cs
-├── Services/
-│   └── AuthService.cs
-├── Program.cs
-├── appsettings.json
-├── README.md
-
